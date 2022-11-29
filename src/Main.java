@@ -1,8 +1,11 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        String string = "12345";
+        String string;
+        Scanner s = new Scanner(System.in);
+        string = s.nextLine();
         StringBuilder str = new StringBuilder(string);
         str.reverse();
 
